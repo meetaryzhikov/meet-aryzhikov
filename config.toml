@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://meet-aryzhikov.vercel.app/"
 languageCode = "en-us"
 title = "Team Lead Blog"
 theme = "PaperMod"
