@@ -2,17 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/posts/my-first-post/</loc>
-    <lastmod>2019-07-18T17:18:05+01:00</lastmod>
+    <loc>http://example.org/tags/frontend/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/my-5-frontend-tools-that-no-project-can-do-without/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
   </url><url>
     <loc>http://example.org/posts/</loc>
-    <lastmod>2019-07-18T17:18:05+01:00</lastmod>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
-    <lastmod>2019-07-18T17:18:05+01:00</lastmod>
+    <loc>http://example.org/tags/react/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://example.org/tags/system_processing/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/tailwind/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>http://example.org/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/vite/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>http://example.org/categories/</loc>
   </url>
 </urlset>

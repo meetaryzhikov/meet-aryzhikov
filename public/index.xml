@@ -6,14 +6,18 @@
     <description>Recent content on Team Lead Blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jul 2019 17:18:05 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 20:24:30 +0700</lastBuildDate>
     <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
-      <pubDate>Thu, 18 Jul 2019 17:18:05 +0100</pubDate>
-      <guid>http://example.org/posts/my-first-post/</guid>
-      <description>&lt;h1 id=&#34;hugo-on-vercel&#34;&gt;Hugo on Vercel&lt;/h1&gt;</description>
+      <title>My 5 Frontend Tools That No Project Can Do Without</title>
+      <link>http://example.org/posts/my-5-frontend-tools-that-no-project-can-do-without/</link>
+      <pubDate>Tue, 04 Nov 2025 20:24:30 +0700</pubDate>
+      <guid>http://example.org/posts/my-5-frontend-tools-that-no-project-can-do-without/</guid>
+      <description>&lt;p&gt;As a frontend leader, I try to build processes so that the code is predictable and the team is on the same wavelength. One way is to fix a set of tools that solves 80% of tasks without unnecessary experimentation. Here is my current stack; it evolves, but the base remains.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;VS Code&lt;/strong&gt;
+An editor who doesn&amp;rsquo;t distract. ESLint + Prettier are embedded in save, the terminal is nearby, Git Lens shows the history directly in the file. No &amp;ldquo;it doesn&amp;rsquo;t work for me&amp;rdquo; — settings in the repository.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
