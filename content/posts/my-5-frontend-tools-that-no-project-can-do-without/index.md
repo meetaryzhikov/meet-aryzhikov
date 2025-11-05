@@ -7,19 +7,34 @@ tags: ["frontend", "system_processing", "react", "tailwind", "vite"]
 
 As a frontend leader, I try to build processes so that the code is predictable and the team is on the same wavelength. One way is to fix a set of tools that solves 80% of tasks without unnecessary experimentation. Here is my current stack; it evolves, but the base remains.
 
-1. **VS Code**
+![Visual Studio Code](vs-code.jpg)
+
+1. [**VS Code**](https://code.visualstudio.com/)
+    
     An editor who doesn't distract. ESLint + Prettier are embedded in save, the terminal is nearby, Git Lens shows the history directly in the file. No "it doesn't work for me" — settings in the repository.
 
-2. **React**
+![React.js](react.jpg)
+
+2. [**React**](https://react.dev/)
+    
     Components = a contract between design and code. Hooks cover 95% of the states, and TypeScript adds input types. In large projects, this saves weeks of debugging.
 
-3. **Tailwind CSS**
+![Tailwind CSS](tailwind.jpg)
+
+3. [**Tailwind CSS**](https://tailwindcss.com/)
+
     Utilities instead of arbitrary classes. The configuration is in one file, the design tokens are synchronized with Figma. Minus 2-3 KB of CSS output, plus a single dictionary for web designers.
 
-4. **Vite**
+![Vite](vite.jpg)
+
+4. [**Vite**](https://vite.dev/)
+    
     The Dev server starts in 300 ms, the HMR is instant. A 20-line configuration, plugins for React/PostCSS out of the box. We leave the webpack for legacy monsters.
 
-5. **Figma**
+![Figma](figma.jpg)
+
+5. [**Figma**](https://www.figma.com/)
+    
     Not a development tool, but an entry point. Inspect → CSS variables, auto-layout → grid/flex, comments from @dev. One file = one source of truth.
 
 This set closes the cycle from layout to production. If there is a newcomer to the team, 15 minutes on onboard, and he is already in the stream.

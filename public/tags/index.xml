@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Team Lead Blog</title>
-    <link>http://example.org/tags/</link>
+    <link>https://meet-aryzhikov.vercel.app/tags/</link>
     <description>Recent content in Tags on Team Lead Blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Nov 2025 20:24:30 +0700</lastBuildDate>
-    <atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://meet-aryzhikov.vercel.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Frontend</title>
-      <link>http://example.org/tags/frontend/</link>
+      <link>https://meet-aryzhikov.vercel.app/tags/frontend/</link>
       <pubDate>Tue, 04 Nov 2025 20:24:30 +0700</pubDate>
-      <guid>http://example.org/tags/frontend/</guid>
+      <guid>https://meet-aryzhikov.vercel.app/tags/frontend/</guid>
       <description></description>
     </item>
     <item>
       <title>React</title>
-      <link>http://example.org/tags/react/</link>
+      <link>https://meet-aryzhikov.vercel.app/tags/react/</link>
       <pubDate>Tue, 04 Nov 2025 20:24:30 +0700</pubDate>
-      <guid>http://example.org/tags/react/</guid>
+      <guid>https://meet-aryzhikov.vercel.app/tags/react/</guid>
       <description></description>
     </item>
     <item>
       <title>System_processing</title>
-      <link>http://example.org/tags/system_processing/</link>
+      <link>https://meet-aryzhikov.vercel.app/tags/system_processing/</link>
       <pubDate>Tue, 04 Nov 2025 20:24:30 +0700</pubDate>
-      <guid>http://example.org/tags/system_processing/</guid>
+      <guid>https://meet-aryzhikov.vercel.app/tags/system_processing/</guid>
       <description></description>
     </item>
     <item>
       <title>Tailwind</title>
-      <link>http://example.org/tags/tailwind/</link>
+      <link>https://meet-aryzhikov.vercel.app/tags/tailwind/</link>
       <pubDate>Tue, 04 Nov 2025 20:24:30 +0700</pubDate>
-      <guid>http://example.org/tags/tailwind/</guid>
+      <guid>https://meet-aryzhikov.vercel.app/tags/tailwind/</guid>
       <description></description>
     </item>
     <item>
       <title>Vite</title>
-      <link>http://example.org/tags/vite/</link>
+      <link>https://meet-aryzhikov.vercel.app/tags/vite/</link>
       <pubDate>Tue, 04 Nov 2025 20:24:30 +0700</pubDate>
-      <guid>http://example.org/tags/vite/</guid>
+      <guid>https://meet-aryzhikov.vercel.app/tags/vite/</guid>
       <description></description>
     </item>
   </channel>
