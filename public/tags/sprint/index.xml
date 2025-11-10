@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sprint on Developer Notes</title>
+    <link>https://meet-aryzhikov.vercel.app/tags/sprint/</link>
+    <description>Recent content in Sprint on Developer Notes</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Nov 2025 20:24:30 +0700</lastBuildDate>
+    <atom:link href="https://meet-aryzhikov.vercel.app/tags/sprint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The sprint format that actually works for frontend teams</title>
+      <link>https://meet-aryzhikov.vercel.app/posts/the-sprint-format-that-actually-works-for-frontend-teams/</link>
+      <pubDate>Tue, 04 Nov 2025 20:24:30 +0700</pubDate>
+      <guid>https://meet-aryzhikov.vercel.app/posts/the-sprint-format-that-actually-works-for-frontend-teams/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re a frontend developer, you know that feeling. The sprint is planned, the tasks are evaluated, but by the middle of the sprint everything goes awry. Suddenly, cross-browser issues surface, a &amp;ldquo;harmless&amp;rdquo; change breaks half of the components in the Storybook, and the backend API turns out to be not quite the same as described in the ticket.&lt;/p&gt;
+&lt;p&gt;Classic Scrum, tailored for versatility, often does not take into account the specifics of frontend development. Endless &amp;ldquo;rallies for the sake of rallies&amp;rdquo;, strict deadlines for creative work and a constant context switch - all this kills both speed and quality.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

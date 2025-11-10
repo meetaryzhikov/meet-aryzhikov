@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>The sprint format that actually works for frontend teams | Developer Notes</title>
+<meta name="keywords" content="frontend, agile, scrum, sprint, webdev, teamefficiency, projectmanagement, productivity, frontenddevelopment, componentdrivendevelopment, techlead, softwaredevelopment">
+<meta name="description" content="If you&rsquo;re a frontend developer, you know that feeling. The sprint is planned, the tasks are evaluated, but by the middle of the sprint everything goes awry. Suddenly, cross-browser issues surface, a &ldquo;harmless&rdquo; change breaks half of the components in the Storybook, and the backend API turns out to be not quite the same as described in the ticket.
+Classic Scrum, tailored for versatility, often does not take into account the specifics of frontend development. Endless &ldquo;rallies for the sake of rallies&rdquo;, strict deadlines for creative work and a constant context switch - all this kills both speed and quality.">
+<meta name="author" content="">
+<link rel="canonical" href="https://meet-aryzhikov.vercel.app/posts/the-sprint-format-that-actually-works-for-frontend-teams/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://meet-aryzhikov.vercel.app/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://meet-aryzhikov.vercel.app/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://meet-aryzhikov.vercel.app/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://meet-aryzhikov.vercel.app/apple-touch-icon.png">
+<link rel="mask-icon" href="https://meet-aryzhikov.vercel.app/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://meet-aryzhikov.vercel.app/posts/the-sprint-format-that-actually-works-for-frontend-teams/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://meet-aryzhikov.vercel.app/posts/the-sprint-format-that-actually-works-for-frontend-teams/">
+  <meta property="og:site_name" content="Developer Notes">
+  <meta property="og:title" content="The sprint format that actually works for frontend teams">
+  <meta property="og:description" content="If you’re a frontend developer, you know that feeling. The sprint is planned, the tasks are evaluated, but by the middle of the sprint everything goes awry. Suddenly, cross-browser issues surface, a “harmless” change breaks half of the components in the Storybook, and the backend API turns out to be not quite the same as described in the ticket.
+Classic Scrum, tailored for versatility, often does not take into account the specifics of frontend development. Endless “rallies for the sake of rallies”, strict deadlines for creative work and a constant context switch - all this kills both speed and quality.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-04T20:24:30+07:00">
+    <meta property="article:modified_time" content="2025-11-04T20:24:30+07:00">
+    <meta property="article:tag" content="Frontend">
+    <meta property="article:tag" content="Agile">
+    <meta property="article:tag" content="Scrum">
+    <meta property="article:tag" content="Sprint">
+    <meta property="article:tag" content="Webdev">
+    <meta property="article:tag" content="Teamefficiency">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="The sprint format that actually works for frontend teams">
+<meta name="twitter:description" content="If you&rsquo;re a frontend developer, you know that feeling. The sprint is planned, the tasks are evaluated, but by the middle of the sprint everything goes awry. Suddenly, cross-browser issues surface, a &ldquo;harmless&rdquo; change breaks half of the components in the Storybook, and the backend API turns out to be not quite the same as described in the ticket.
+Classic Scrum, tailored for versatility, often does not take into account the specifics of frontend development. Endless &ldquo;rallies for the sake of rallies&rdquo;, strict deadlines for creative work and a constant context switch - all this kills both speed and quality.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://meet-aryzhikov.vercel.app/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "The sprint format that actually works for frontend teams",
+      "item": "https://meet-aryzhikov.vercel.app/posts/the-sprint-format-that-actually-works-for-frontend-teams/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The sprint format that actually works for frontend teams",
+  "name": "The sprint format that actually works for frontend teams",
+  "description": "If you\u0026rsquo;re a frontend developer, you know that feeling. The sprint is planned, the tasks are evaluated, but by the middle of the sprint everything goes awry. Suddenly, cross-browser issues surface, a \u0026ldquo;harmless\u0026rdquo; change breaks half of the components in the Storybook, and the backend API turns out to be not quite the same as described in the ticket.\nClassic Scrum, tailored for versatility, often does not take into account the specifics of frontend development. Endless \u0026ldquo;rallies for the sake of rallies\u0026rdquo;, strict deadlines for creative work and a constant context switch - all this kills both speed and quality.\n",
+  "keywords": [
+    "frontend", "agile", "scrum", "sprint", "webdev", "teamefficiency", "projectmanagement", "productivity", "frontenddevelopment", "componentdrivendevelopment", "techlead", "softwaredevelopment"
+  ],
+  "articleBody": "If you’re a frontend developer, you know that feeling. The sprint is planned, the tasks are evaluated, but by the middle of the sprint everything goes awry. Suddenly, cross-browser issues surface, a “harmless” change breaks half of the components in the Storybook, and the backend API turns out to be not quite the same as described in the ticket.\nClassic Scrum, tailored for versatility, often does not take into account the specifics of frontend development. Endless “rallies for the sake of rallies”, strict deadlines for creative work and a constant context switch - all this kills both speed and quality.\nIt’s time to change that. We’ve been experimenting for years and found a format that not only works, but makes the team shine. We present to you A hybrid component-oriented sprint.\nWhy does regular Scrum miss the target for the frontend? Unpredictability. Frontend is not just about business logic. These are pixel-perfect, animations, accessibility, and performance. It is impossible to estimate the time for “making it nice and smooth” as accurately as for “implementing the endpoint”. Context switch. Switching between creating a new component, fixing bugs in the old code, and code review kills focus. Frontend is deep, visual work that requires concentration. Long-term quality vs. short-term goals. In the pursuit of completing sprint tasks, technical debt is often clogged up: suboptimal bundles, compatibility crutches, and curved components. Sooner or later, this debt will paralyze development. Pillars of our format: Three Pillars of Efficiency Our format is based on three basic principles that transform chaos into order.\n1. Component-First Planning We are abandoning planning in terms of “pages” or “features” in its purest form. Instead, we break down the work into three distinct types of tasks.:\nCreation/Component Refactoring (Component Work): This is the basis. The task is to “Create a button” or “Refactor the virtualization table”. These tasks are inviolable. They are evaluated with a margin for design review, testing in various states, and documentation in Storybook. Integration tasks (Integration Work): Assembling pages and features from ready-made components. This is working with status, routing, API requests. Bugs and technical debt (Bugs \u0026 Debt): We don’t hide them in the backlog. In each sprint, a fixed percentage of time (for example, 20%) is reserved immediately for these purposes. How it looks in practice: During planning, we first look at the design layouts and determine which new components we need. Their creation is our No. 1 priority in the sprint.\n2. “Themed” Days Instead of spreading different types of work across all the days of the sprint, we group them.\nMonday: Components Day. Focused solely on creating and refactoring components. A minimum of meetings, a maximum of code in the stream. Tuesday-Thursday: Integration Days. We collect features, integrate with the backend, and write most of the business logic. Friday: Day of Quality and Growth. This is a day with no mandatory sprint tasks. We are engaged in: Code Review: All pool requests accumulated during the week are reviewed and held. Refactoring: We clean the code that “smells”. By training: Reports, workshops, and the study of new technologies. Experiments: We are trying a new library or approach. This approach radically reduces the context switch and allows you to immerse yourself in your work.\n3. A one-week, not a two-week sprint Yes, you heard right. The two-week cycle is too long for a dynamic frontend. A week-long sprint gives:\nQuick feedback: We often show the increment to the product manager and designers. Flexibility: Easier to adapt to changing requirements. *A sense of accomplishment: Completing a sprint every Friday is psychologically very enjoyable and motivating. What our sprint looks like from the inside (by day) Friday (Preparation):\nShort planning (30 min.): The team with the product manager and designers briefly looks at the tasks for the next week. The designers have already prepared layouts and specifications for the new components. Monday (Components Day):\nMorning stand-up (15 min.): “What will I do today in terms of components?”. Deep work: Creating components, working in Storybook. Evening synchronization (15 min.): “What did you do, what problems did you encounter?” Tuesday-Thursday (Integration Days):\nStandard stand-ups. Basic development: Building pages, working with the API, writing e2e tests. Active code review. Friday (Quality and Growth Day):\nNo morning stand-up. Demo (30 min.): An informal demonstration of what has been done in a week. We show not only features, but also cool reusable components. Retrospective (30 min.): What went well this week? What can be improved? Free time: for code review, refactoring, and training. The results we got By switching to this format, our team noticed drastic changes.:\nThe quality of the code has skyrocketed. The components have become more thoughtful, versatile, and well-documented. The development speed has increased. A paradox? No. Fewer context switches and a higher-quality framework (components) accelerated integration in the long run. Predictability. Since the creation of components — the most unpredictable part — has been highlighted and protected, we have become much more accurate in estimating deadlines. The happiness of developers. The burnout from constant switching has disappeared. There was time for creativity and growth on Fridays. Conclusion There is no silver bullet, but the Hybrid component-based sprint is not just another methodology. This is a recognition that frontend is a special discipline that requires its own rhythm and its own approach.\nTry to adapt this format to your team. Start by introducing “Theme Days” or allocating time for component work. You will quickly see how chaos gives way to flow, and your team begins to deliver not just code, but thoughtful, scalable, and beautiful products.\n",
+  "wordCount" : "929",
+  "inLanguage": "en",
+  "datePublished": "2025-11-04T20:24:30+07:00",
+  "dateModified": "2025-11-04T20:24:30+07:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://meet-aryzhikov.vercel.app/posts/the-sprint-format-that-actually-works-for-frontend-teams/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Developer Notes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://meet-aryzhikov.vercel.app/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://meet-aryzhikov.vercel.app/" accesskey="h" title="Developer Notes (Alt + H)">Developer Notes</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://meet-aryzhikov.vercel.app/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      The sprint format that actually works for frontend teams
+    </h1>
+    <div class="post-meta"><span title='2025-11-04 20:24:30 +0700 +07'>November 4, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>If you&rsquo;re a frontend developer, you know that feeling. The sprint is planned, the tasks are evaluated, but by the middle of the sprint everything goes awry. Suddenly, cross-browser issues surface, a &ldquo;harmless&rdquo; change breaks half of the components in the Storybook, and the backend API turns out to be not quite the same as described in the ticket.</p>
+<p>Classic Scrum, tailored for versatility, often does not take into account the specifics of frontend development. Endless &ldquo;rallies for the sake of rallies&rdquo;, strict deadlines for creative work and a constant context switch - all this kills both speed and quality.</p>
+<p>It&rsquo;s time to change that. We&rsquo;ve been experimenting for years and found a format that not only works, but <em>makes the team shine</em>. We present to you <strong>A hybrid component-oriented sprint</strong>.</p>
+<h4 id="why-does-regular-scrum-miss-the-target-for-the-frontend">Why does regular Scrum miss the target for the frontend?<a hidden class="anchor" aria-hidden="true" href="#why-does-regular-scrum-miss-the-target-for-the-frontend">#</a></h4>
+<ol>
+<li><strong>Unpredictability.</strong> Frontend is not just about business logic. These are pixel-perfect, animations, accessibility, and performance. It is impossible to estimate the time for &ldquo;making it nice and smooth&rdquo; as accurately as for &ldquo;implementing the endpoint&rdquo;.</li>
+<li><strong>Context switch.</strong> Switching between creating a new component, fixing bugs in the old code, and code review kills focus. Frontend is deep, visual work that requires concentration.</li>
+<li><strong>Long-term quality vs. short-term goals.</strong> In the pursuit of completing sprint tasks, technical debt is often clogged up: suboptimal bundles, compatibility crutches, and curved components. Sooner or later, this debt will paralyze development.</li>
+</ol>
+<h4 id="pillars-of-our-format-three-pillars-of-efficiency">Pillars of our format: Three Pillars of Efficiency<a hidden class="anchor" aria-hidden="true" href="#pillars-of-our-format-three-pillars-of-efficiency">#</a></h4>
+<p>Our format is based on three basic principles that transform chaos into order.</p>
+<h3 id="1-component-first-planning">1. Component-First Planning<a hidden class="anchor" aria-hidden="true" href="#1-component-first-planning">#</a></h3>
+<p>We are abandoning planning in terms of &ldquo;pages&rdquo; or &ldquo;features&rdquo; in its purest form. Instead, we break down the work into three distinct types of tasks.:</p>
+<ul>
+<li><strong>Creation/Component Refactoring (Component Work):</strong> This is the basis. The task is to &ldquo;Create a button&rdquo; or &ldquo;Refactor the virtualization table&rdquo;. These tasks are <em>inviolable</em>. They are evaluated with a margin for design review, testing in various states, and documentation in Storybook.</li>
+<li><strong>Integration tasks (Integration Work):</strong> Assembling pages and features from ready-made components. This is working with status, routing, API requests.</li>
+<li><strong>Bugs and technical debt (Bugs &amp; Debt):</strong> We don&rsquo;t hide them in the backlog. In each sprint, a fixed percentage of time (for example, 20%) is reserved <em>immediately</em> for these purposes.</li>
+</ul>
+<p><strong>How it looks in practice:</strong> During planning, we first look at the design layouts and determine which <em>new</em> components we need. Their creation is our No. 1 priority in the sprint.</p>
+<h3 id="2-themed-days">2. &ldquo;Themed&rdquo; Days<a hidden class="anchor" aria-hidden="true" href="#2-themed-days">#</a></h3>
+<p>Instead of spreading different types of work across all the days of the sprint, we group them.</p>
+<ul>
+<li><strong>Monday: Components Day.</strong> Focused solely on creating and refactoring components. A minimum of meetings, a maximum of code in the stream.</li>
+<li><strong>Tuesday-Thursday: Integration Days.</strong> We collect features, integrate with the backend, and write most of the business logic.</li>
+<li><strong>Friday: Day of Quality and Growth.</strong> This is a day with no mandatory sprint tasks. We are engaged in:
+<ul>
+<li><strong>Code Review:</strong> All pool requests accumulated during the week are reviewed and held.</li>
+<li><strong>Refactoring:</strong> We clean the code that &ldquo;smells&rdquo;.</li>
+<li><strong>By training:</strong> Reports, workshops, and the study of new technologies.</li>
+<li><strong>Experiments:</strong> We are trying a new library or approach.</li>
+</ul>
+</li>
+</ul>
+<p>This approach radically reduces the context switch and allows you to immerse yourself in your work.</p>
+<p><img alt="&ldquo;A one-week sprint&rdquo;" loading="lazy" src="/posts/the-sprint-format-that-actually-works-for-frontend-teams/image-01.jpg"></p>
+<h3 id="3-a-one-week-not-a-two-week-sprint">3. A one-week, not a two-week sprint<a hidden class="anchor" aria-hidden="true" href="#3-a-one-week-not-a-two-week-sprint">#</a></h3>
+<p>Yes, you heard right. The two-week cycle is too long for a dynamic frontend. A week-long sprint gives:</p>
+<ul>
+<li><strong>Quick feedback:</strong> We often show the increment to the product manager and designers.</li>
+<li><strong>Flexibility:</strong> Easier to adapt to changing requirements.</li>
+<li>*<em>A sense of accomplishment:</em> Completing a sprint every Friday is psychologically very enjoyable and motivating.</li>
+</ul>
+<h4 id="what-our-sprint-looks-like-from-the-inside-by-day">What our sprint looks like from the inside (by day)<a hidden class="anchor" aria-hidden="true" href="#what-our-sprint-looks-like-from-the-inside-by-day">#</a></h4>
+<p><strong>Friday (Preparation):</strong></p>
+<ul>
+<li><strong>Short planning (30 min.):</strong> The team with the product manager and designers briefly looks at the tasks for the next week. The designers have already prepared layouts and specifications for the new components.</li>
+</ul>
+<p><strong>Monday (Components Day):</strong></p>
+<ul>
+<li><strong>Morning stand-up (15 min.):</strong> &ldquo;What will I do today in terms of components?&rdquo;.</li>
+<li><strong>Deep work:</strong> Creating components, working in Storybook.</li>
+<li><strong>Evening synchronization (15 min.):</strong> &ldquo;What did you do, what problems did you encounter?&rdquo;</li>
+</ul>
+<p><strong>Tuesday-Thursday (Integration Days):</strong></p>
+<ul>
+<li><strong>Standard stand-ups.</strong></li>
+<li><strong>Basic development:</strong> Building pages, working with the API, writing e2e tests.</li>
+<li><strong>Active code review.</strong></li>
+</ul>
+<p><strong>Friday (Quality and Growth Day):</strong></p>
+<ul>
+<li><strong>No morning stand-up.</strong></li>
+<li><strong>Demo (30 min.):</strong> An informal demonstration of what has been done in a week. We show not only features, but also cool reusable components.</li>
+<li><strong>Retrospective (30 min.):</strong> What went well this week? What can be improved?</li>
+<li><strong>Free time:</strong> for code review, refactoring, and training.</li>
+</ul>
+<h4 id="the-results-we-got">The results we got<a hidden class="anchor" aria-hidden="true" href="#the-results-we-got">#</a></h4>
+<p>By switching to this format, our team noticed drastic changes.:</p>
+<ul>
+<li><strong>The quality of the code has skyrocketed.</strong> The components have become more thoughtful, versatile, and well-documented.</li>
+<li><strong>The development speed has increased.</strong> A paradox? No. Fewer context switches and a higher-quality framework (components) accelerated integration in the long run.</li>
+<li><strong>Predictability.</strong> Since the creation of components — the most unpredictable part — has been highlighted and protected, we have become much more accurate in estimating deadlines.</li>
+<li><strong>The happiness of developers.</strong> The burnout from constant switching has disappeared. There was time for creativity and growth on Fridays.</li>
+</ul>
+<h4 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h4>
+<p>There is no silver bullet, but the Hybrid component-based sprint is not just another methodology. This is a recognition that frontend is a special discipline that requires its own rhythm and its own approach.</p>
+<p>Try to adapt this format to your team. Start by introducing &ldquo;Theme Days&rdquo; or allocating time for component work. You will quickly see how chaos gives way to flow, and your team begins to deliver not just code, but thoughtful, scalable, and beautiful products.</p>
+<hr>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://meet-aryzhikov.vercel.app/tags/frontend/">Frontend</a></li>
+      <li><a href="https://meet-aryzhikov.vercel.app/tags/agile/">Agile</a></li>
+      <li><a href="https://meet-aryzhikov.vercel.app/tags/scrum/">Scrum</a></li>
+      <li><a href="https://meet-aryzhikov.vercel.app/tags/sprint/">Sprint</a></li>
+      <li><a href="https://meet-aryzhikov.vercel.app/tags/webdev/">Webdev</a></li>
+      <li><a href="https://meet-aryzhikov.vercel.app/tags/teamefficiency/">Teamefficiency</a></li>
+      <li><a href="https://meet-aryzhikov.vercel.app/tags/projectmanagement/">Projectmanagement</a></li>
+      <li><a href="https://meet-aryzhikov.vercel.app/tags/productivity/">Productivity</a></li>
+      <li><a href="https://meet-aryzhikov.vercel.app/tags/frontenddevelopment/">Frontenddevelopment</a></li>
+      <li><a href="https://meet-aryzhikov.vercel.app/tags/componentdrivendevelopment/">Componentdrivendevelopment</a></li>
+      <li><a href="https://meet-aryzhikov.vercel.app/tags/techlead/">Techlead</a></li>
+      <li><a href="https://meet-aryzhikov.vercel.app/tags/softwaredevelopment/">Softwaredevelopment</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://meet-aryzhikov.vercel.app/">Developer Notes</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

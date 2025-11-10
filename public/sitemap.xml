@@ -2,36 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://meet-aryzhikov.vercel.app/about/</loc>
     <lastmod>2025-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://meet-aryzhikov.vercel.app/</loc>
     <lastmod>2025-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/frontend/</loc>
+    <loc>https://meet-aryzhikov.vercel.app/tags/agile/</loc>
     <lastmod>2025-11-04T20:24:30+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-5-frontend-tools-that-no-project-can-do-without/</loc>
+    <loc>https://meet-aryzhikov.vercel.app/tags/componentdrivendevelopment/</loc>
     <lastmod>2025-11-04T20:24:30+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://meet-aryzhikov.vercel.app/tags/frontend/</loc>
     <lastmod>2025-11-04T20:24:30+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/react/</loc>
+    <loc>https://meet-aryzhikov.vercel.app/tags/frontenddevelopment/</loc>
     <lastmod>2025-11-04T20:24:30+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/system_processing/</loc>
+    <loc>https://meet-aryzhikov.vercel.app/posts/my-5-frontend-tools-that-no-project-can-do-without/</loc>
     <lastmod>2025-11-04T20:24:30+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://meet-aryzhikov.vercel.app/posts/</loc>
     <lastmod>2025-11-04T20:24:30+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tailwind/</loc>
+    <loc>https://meet-aryzhikov.vercel.app/tags/productivity/</loc>
     <lastmod>2025-11-04T20:24:30+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vite/</loc>
+    <loc>https://meet-aryzhikov.vercel.app/tags/projectmanagement/</loc>
     <lastmod>2025-11-04T20:24:30+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://meet-aryzhikov.vercel.app/tags/react/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>https://meet-aryzhikov.vercel.app/tags/scrum/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>https://meet-aryzhikov.vercel.app/tags/softwaredevelopment/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>https://meet-aryzhikov.vercel.app/tags/sprint/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>https://meet-aryzhikov.vercel.app/tags/system_processing/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>https://meet-aryzhikov.vercel.app/tags/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>https://meet-aryzhikov.vercel.app/tags/tailwind/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>https://meet-aryzhikov.vercel.app/tags/teamefficiency/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>https://meet-aryzhikov.vercel.app/tags/techlead/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>https://meet-aryzhikov.vercel.app/posts/the-sprint-format-that-actually-works-for-frontend-teams/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>https://meet-aryzhikov.vercel.app/tags/vite/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>https://meet-aryzhikov.vercel.app/tags/webdev/</loc>
+    <lastmod>2025-11-04T20:24:30+07:00</lastmod>
+  </url><url>
+    <loc>https://meet-aryzhikov.vercel.app/categories/</loc>
   </url>
 </urlset>

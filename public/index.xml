@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Developer Notes</title>
-    <link>http://localhost:1313/</link>
+    <link>https://meet-aryzhikov.vercel.app/</link>
     <description>Recent content on Developer Notes</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://meet-aryzhikov.vercel.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://meet-aryzhikov.vercel.app/about/</link>
       <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://meet-aryzhikov.vercel.app/about/</guid>
       <description>&lt;h1 id=&#34;frontend-architect-manifesto&#34;&gt;Frontend Architect Manifesto&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;I don’t just write code — I design the space where technology and people meet.&amp;rdquo;&lt;/p&gt;
@@ -29,15 +29,23 @@ where structure and style must speak in harmony.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My 5 Frontend Tools That No Project Can Do Without</title>
-      <link>http://localhost:1313/posts/my-5-frontend-tools-that-no-project-can-do-without/</link>
+      <link>https://meet-aryzhikov.vercel.app/posts/my-5-frontend-tools-that-no-project-can-do-without/</link>
       <pubDate>Tue, 04 Nov 2025 20:24:30 +0700</pubDate>
-      <guid>http://localhost:1313/posts/my-5-frontend-tools-that-no-project-can-do-without/</guid>
+      <guid>https://meet-aryzhikov.vercel.app/posts/my-5-frontend-tools-that-no-project-can-do-without/</guid>
       <description>&lt;p&gt;As a frontend leader, I try to build processes so that the code is predictable and the team is on the same wavelength. One way is to fix a set of tools that solves 80% of tasks without unnecessary experimentation. Here is my current stack; it evolves, but the base remains.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Visual Studio Code&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/my-5-frontend-tools-that-no-project-can-do-without/vs-code.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Visual Studio Code&#34; loading=&#34;lazy&#34; src=&#34;https://meet-aryzhikov.vercel.app/posts/my-5-frontend-tools-that-no-project-can-do-without/vs-code.jpg&#34;&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;&lt;strong&gt;VS Code&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;An editor who doesn&amp;rsquo;t distract. ESLint + Prettier are embedded in save, the terminal is nearby, Git Lens shows the history directly in the file. No &amp;ldquo;it doesn&amp;rsquo;t work for me&amp;rdquo; — settings in the repository.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The sprint format that actually works for frontend teams</title>
+      <link>https://meet-aryzhikov.vercel.app/posts/the-sprint-format-that-actually-works-for-frontend-teams/</link>
+      <pubDate>Tue, 04 Nov 2025 20:24:30 +0700</pubDate>
+      <guid>https://meet-aryzhikov.vercel.app/posts/the-sprint-format-that-actually-works-for-frontend-teams/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re a frontend developer, you know that feeling. The sprint is planned, the tasks are evaluated, but by the middle of the sprint everything goes awry. Suddenly, cross-browser issues surface, a &amp;ldquo;harmless&amp;rdquo; change breaks half of the components in the Storybook, and the backend API turns out to be not quite the same as described in the ticket.&lt;/p&gt;
+&lt;p&gt;Classic Scrum, tailored for versatility, often does not take into account the specifics of frontend development. Endless &amp;ldquo;rallies for the sake of rallies&amp;rdquo;, strict deadlines for creative work and a constant context switch - all this kills both speed and quality.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
